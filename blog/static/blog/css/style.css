@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(243, 228, 209);
+    
+}
+.form-control{
+    background-color: rgb(247, 245, 243);
+}
+li.nav-item:hover{
+    color: #000;
+    background-color: rgb(243, 186, 79);
+}
+li.nav-item.active{
+    color: #000;
+    background-color: orange;
+    font-weight: bold;
+}
+li.nav-item{
+    border-radius: 30px;
+    padding: 0,10px;
+    margin: 5px,5px;
+}
+.customform{
+    height: 30px;
+}
